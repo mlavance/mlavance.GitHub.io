@@ -1,0 +1,21 @@
+---
+layout: default
+title: Map
+---
+
+<h1>Here is a Map</h1>
+<!-- Add script to the <head> of your page to load the embeddable map component -->
+<script
+  type="module"
+  src="https://js.arcgis.com/5.0/embeddable-components/"
+></script>
+<!-- Add custom element to <body> of your page -->
+<arcgis-embedded-map
+  style="height: 600px; width: 700px"
+  item-id="07ba23df80c54b6ca6e3a8148701eb09"
+  theme="dark"
+  time-zone-label-enabled
+  center="-117.1996589910997,32.78272043986888"
+  scale="144447.638572"
+  portal-url="https://sdsugeo.maps.arcgis.com"
+></arcgis-embedded-map>
